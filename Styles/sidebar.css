@@ -1,0 +1,283 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.circle-rupal2{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border: 1.3px solid rgb(223, 221, 221);
+    border-radius: 50%;
+
+    position: relative;    
+}
+
+.rupal-sidebar-img{
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 2px;
+    left: 2.2px;
+
+    cursor: pointer;
+}
+
+
+.switch{
+    font-family: 'Source Sans Pro';
+    /* font-family: Arial; */
+    margin-left: 137px;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(12, 155, 250);
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.switch:hover{
+    color:rgb(46, 72, 73);
+}
+
+.rupal-sidebar-container{
+    display:flex;
+    align-items: center;
+}
+
+.sidebar-icons{
+    height: 31.5px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+.suggestion-list-container{
+    display:flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.suggestions-container{
+    display: flex;
+    margin-top: 13px;
+}
+
+.suggestions-list{
+    display: flex;
+    margin: 6px;
+    align-items: top;
+}
+
+
+
+.id-rupal, .ids{
+    font-size:14px;
+    font-weight: bold;
+    color:rgb(71, 70, 70);
+
+    cursor: pointer;
+}
+
+
+.follow-button{
+    font-family: 'Source Sans Pro';
+    border:none;
+    color: rgb(12, 155, 250);
+    background-color: rgb(255, 250, 250);
+    font-weight: bold;
+    font-size: 13px;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.follow-button:hover{
+    color:rgb(46, 72, 73);
+}
+
+.ids-container{
+    margin-right: 30px;
+}
+
+.followed-by{
+    margin-top: 5px;
+    font-size: 11px;
+    color: rgb(161, 157, 157);
+}
+
+.suggestions{
+    font-family: 'Source Sans Pro';
+    font-size:15.2px;
+    font-weight: bold;
+    color: rgb(131, 130, 130);
+}
+
+.see-all{
+    font-family: 'Source Sans Pro';
+    font-size: 13.5px;
+    font-weight: bold;
+    margin-left: 155px;
+    color: rgb(73, 66, 66);
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.see-all:hover{
+    opacity: 0.5;
+}
+
+.about, .about2{
+    font-family: Arial;
+    font-size: 12px;
+    color: rgb(206, 206, 206);
+}
+
+.about-icons{
+    cursor: pointer;
+}
+
+.about2{
+    cursor: pointer;
+}
+
+.about-icons:hover{
+    text-decoration: underline;
+}
+.about{
+    margin-top: 21px;
+    line-height: 20px;
+}
+
+.copyright{
+    margin-top: 18px;
+    font-size: 12px;
+    color: rgb(206, 206, 206);
+}
+
+.id-name-rupal{
+    margin-top: 3px;
+    font-size: 13px;
+    color: rgb(161, 157, 157);
+    cursor: pointer;
+
+}
+
+.id-tooltip{
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.tooltip-styles{
+    z-index: 100;
+    position: absolute;
+    bottom: -370px;
+
+    background-color: white;
+    height: 359px;
+    width: 342px;
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.05);
+
+    opacity: 0;
+    pointer-events: none;
+}
+
+.id-tooltip:hover .tooltip-styles{
+    opacity: 1;
+}
+
+.tooltip-profile{
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+    margin-left: 17px;
+}
+.tooltip-icon{
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 18px;
+}
+
+.tooltip-id{
+    font-family:  'Source Sans Pro';
+    font-size: 16px;
+    color:rgb(71, 70, 70);
+}
+
+.tooltip-name{
+    font-size: 14.5px;
+    color: rgb(168, 165, 165);
+}
+
+.tooltip-stats{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.tooltip-posts, .tooltip-followers, .tooltip-followings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.tooltip-posts, .tooltip-followers{
+    margin-left: 0;
+}
+.tooltip-followings{
+    margin-right: 12px;
+}
+
+
+.private-account-img{
+    width: 342px;
+    height: 130px;
+    margin-top: 18px;
+    border-top: 1px solid rgb(221, 218, 218);
+    padding-bottom: 10px;
+}
+
+.tooltip-button-div{
+    border-top: 1px solid rgb(221, 218, 218);
+}
+
+.tooltip-follow-button{
+    border: none;
+    background-color: rgb(39, 165, 228);
+    border-radius: 10px;
+    padding-left: 105px;
+    padding-right: 105px;
+
+    margin-left: 18px;
+    margin-top: 14px;
+}
+
+.follow-button-img{
+    height: 28px;
+
+}
+
+.stat-count{
+    /* font-family: 'Source Sans Pro'; */
+    /* font-weight: bold; */
+    font-size: 14.5px;
+    font-weight: bolder;
+}
+
+.stat-name{
+    font-size: 14.5px;
+    color: rgb(108, 103, 103);
+}
+
+@media(max-width: 1200px){
+    .sidebar{
+        display: none;
+    }
+}

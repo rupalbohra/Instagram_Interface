@@ -1,0 +1,12 @@
+body{
+    height: 3000px;
+    font-family: 'Open sans', Arial;
+
+    background-color: rgb(255, 250, 250);
+}
+
+p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}

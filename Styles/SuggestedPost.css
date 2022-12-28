@@ -1,0 +1,62 @@
+.suggestedPost-follow-button{
+    border: none;
+    background-color: rgb(39, 165, 228);
+    border-radius: 10px;
+    padding-left: 105px;
+    padding-right: 105px;
+
+}
+
+.liked-by-icon-manus{
+    height: 20.5px;
+    border-radius: 16px;
+    border: 2px solid white;
+    margin-left: 8px;
+}
+
+.suggestedPosts-react-icons{
+    display: inline-block;
+    margin-left: 3px;
+}
+
+
+.suggestedPost-like{
+    margin-top: 10px;
+    margin-bottom: 6px;
+    height: 30px; 
+    margin-right: 0; 
+    margin-left: 6px;
+    cursor: pointer;
+}
+.suggestedPost-like:hover{
+    opacity: 0.5;
+}
+
+.suggestedPosts-follow{
+    font-weight: bold;
+    font-family: 'Source Sans Pro';
+    color:rgb(25, 165, 235); 
+    font-size: 15.5px;
+    cursor: pointer;
+
+}
+
+.suggestedPosts-follow:hover{
+    color:rgb(71, 70, 70);
+}
+
+.id-name-suggestedPosts{
+    font-weight: bold;
+    font-family: 'Source Sans Pro';
+    color:rgb(71, 70, 70);
+    font-size: 15.5px;
+    cursor: pointer;
+}
+
+.id-suggestedPosts{
+    transition: 0.15s;
+}
+
+.id-suggestedPosts:hover{
+    opacity: 0.5;
+}

@@ -1,0 +1,83 @@
+.comments{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.each-comment{
+    display: flex;
+    align-items: center;
+}
+
+.line-of-comment{
+    flex: 1;
+    font-family:  'Source Sans Pro';
+    font-weight: bold;
+    color: rgb(30, 28, 28);
+    font-size: 15px;
+}
+
+.like-the-comment{
+    margin-right: 10px;
+    height:22px;
+    cursor:pointer;
+}
+
+.like-the-comment-mahim{
+    margin-right: 12.5px; 
+    height:20px;
+    cursor: pointer;
+}
+
+.like-the-comment-mahim:hover{
+    opacity: 0.5;
+}
+.view-comments{
+    margin-top: 12px;
+    margin-bottom: 9px;
+    color: rgb(150, 144, 144);
+    font-size: 14.2px;
+    cursor: pointer;
+}
+
+.comment-hover-div{
+    display: flex;
+    position: relative;
+}
+
+.comment-id-hover{
+    font-family:  'Source Sans Pro';
+    font-weight: bold;
+    color: rgb(30, 28, 28);
+    font-size: 15px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.comment-hover-profile{
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+
+    top: 30px;
+    left: 0;
+
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    height: 320px;
+
+    opacity: 0;
+    transition: 0.15s;
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.05);
+
+    pointer-events:none;
+
+    padding-top: 9px;
+}
+
+.comment-hover-div:hover .comment-hover-profile{
+    opacity: 1;
+}
